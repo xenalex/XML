@@ -1,1 +1,22 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <ID>A1</ID>
+  <Title>Нажатие кнопки &apos;Перейти в каталог&apos; на главной странице не перенаправляет на страницу Каталога</Title>
+  <Project>Сайт магазина интим-товаров &apos;Штучки-дрючки&apos;</Project>
+  <STR>1. Зайти на главную страницу сайта (ссылка_на_сайт)</STR>
+  <STR>2. Нажать кнопку Каталог</STR>
+  <Environment>
+    <OS>Windows 10 x64 build 19043</OS>
+    <Браузер>Google Chrome v96.0.4664.45 x64</Браузер>
+  </Environment>
+  <Component>Кнопка Каталог</Component>
+  <Build>0.5.7</Build>
+  <Actual result>Нажатие кнопки Каталог НЕ перенаправляет на страницу Каталога</Actual result>
+  <Expected result>Нажатие кнопки Каталог перенаправляет на страницу Каталога</Expected result>
+  <Severity>Критическая</Severity>
+  <Priority>Высокий</Priority>
+  <Status>Открыто</Status>
+  <Author>Вадим Владиславович</Author>
+  <Sign to>Ололошка Кеков</Sign to>
+  <Attachments>ссылка_на_картинку_или_видео_с_багом</Attachments>
+</root>
